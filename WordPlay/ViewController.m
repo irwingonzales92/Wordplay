@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     // What's Up Dude
+    // Cool Beans
 }
 
 - (void)didReceiveMemoryWarning {
