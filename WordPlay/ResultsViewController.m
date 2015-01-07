@@ -7,9 +7,15 @@
 //
 
 #import "ResultsViewController.h"
+#import "EnterNameViewController.h"
+#import "EnterAbjectiveViewController.h"
 
 @interface ResultsViewController ()
+
 @property (weak, nonatomic) IBOutlet UITextView *resultsTextView;
+@property NSString *ad;
+
+@property NSString *story;
 
 @end
 
@@ -17,22 +23,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSString *name = self.title ;
+    NSString *adj = self.title ;
+    self.resultsTextView.text = [NSString stringWithFormat:@"One day, %@ was walking inyo Mobile Makers when he noticed how %@ the students were.", name, adj];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
