@@ -12,7 +12,6 @@
 @interface EnterAbjectiveViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *adjectiveTextField;
-@property NSString *name;
 
 @end
 
@@ -25,8 +24,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     ResultsViewController *vc = segue.destinationViewController;
-    //vc.name = self.adjectiveTextField.text;
-    vc.title = self.adjectiveTextField.text;
+    vc.name = self.name;
+    //vc.title = self.adjectiveTextField.text;
+    vc.adj = self.adjectiveTextField.text;
 }
 
 

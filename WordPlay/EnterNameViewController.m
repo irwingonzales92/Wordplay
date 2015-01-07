@@ -25,6 +25,7 @@
 {
     EnterAbjectiveViewController *vc = segue.destinationViewController;
     vc.title = self.nameTextField.text;
+    vc.name = self.nameTextField.text;
 }
 
 @end

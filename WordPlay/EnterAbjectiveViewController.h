@@ -10,4 +10,6 @@
 
 @interface EnterAbjectiveViewController : UIViewController
 
+@property NSString *name;
+
 @end
