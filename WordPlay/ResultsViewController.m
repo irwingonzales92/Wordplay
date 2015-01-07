@@ -22,10 +22,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Your Story";
     NSString *name = self.name ;
     NSString *adj = self.adj ;
     self.resultsTextView.text = [NSString stringWithFormat:@"One day, %@ was walking into Mobile Makers when he noticed how %@ the students were.", name, adj];
 }
-
 
 @end

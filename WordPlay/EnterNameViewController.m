@@ -21,6 +21,22 @@
     [super viewDidLoad];
 }
 
+/*
+
+ We have to know if there is something typed in the nameTextField so
+ the "shouldPerformSegueWithIdentifier" (which is a boolean) only calls preparedForSegue if it's true.
+
+ */
+
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([self.nameTextField.text isEqualToString:@""]){
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     EnterAbjectiveViewController *vc = segue.destinationViewController;
