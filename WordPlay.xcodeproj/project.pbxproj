@@ -14,6 +14,9 @@
 		57CC1A831A5CA9A600673316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CC1A821A5CA9A600673316 /* Images.xcassets */; };
 		57CC1A861A5CA9A600673316 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CC1A841A5CA9A600673316 /* LaunchScreen.xib */; };
 		57CC1A921A5CA9A600673316 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC1A911A5CA9A600673316 /* WordPlayTests.m */; };
+		57CC1A9D1A5CAE1300673316 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC1A9C1A5CAE1300673316 /* EnterNameViewController.m */; };
+		57CC1AA01A5CAEF200673316 /* EnterAbjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC1A9F1A5CAEF200673316 /* EnterAbjectiveViewController.m */; };
+		57CC1AA31A5CAFD200673316 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC1AA21A5CAFD200673316 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		57CC1A8B1A5CA9A600673316 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CC1A901A5CA9A600673316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57CC1A911A5CA9A600673316 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		57CC1A9B1A5CAE1300673316 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		57CC1A9C1A5CAE1300673316 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		57CC1A9E1A5CAEF200673316 /* EnterAbjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAbjectiveViewController.h; sourceTree = "<group>"; };
+		57CC1A9F1A5CAEF200673316 /* EnterAbjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAbjectiveViewController.m; sourceTree = "<group>"; };
+		57CC1AA11A5CAFD200673316 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		57CC1AA21A5CAFD200673316 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				57CC1A7C1A5CA9A600673316 /* ViewController.h */,
 				57CC1A7D1A5CA9A600673316 /* ViewController.m */,
 				57CC1A7F1A5CA9A600673316 /* Main.storyboard */,
+				57CC1A9E1A5CAEF200673316 /* EnterAbjectiveViewController.h */,
+				57CC1A9F1A5CAEF200673316 /* EnterAbjectiveViewController.m */,
+				57CC1AA11A5CAFD200673316 /* ResultsViewController.h */,
+				57CC1AA21A5CAFD200673316 /* ResultsViewController.m */,
+				57CC1A9B1A5CAE1300673316 /* EnterNameViewController.h */,
+				57CC1A9C1A5CAE1300673316 /* EnterNameViewController.m */,
 				57CC1A821A5CA9A600673316 /* Images.xcassets */,
 				57CC1A841A5CA9A600673316 /* LaunchScreen.xib */,
 				57CC1A751A5CA9A600673316 /* Supporting Files */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CC1AA01A5CAEF200673316 /* EnterAbjectiveViewController.m in Sources */,
 				57CC1A7E1A5CA9A600673316 /* ViewController.m in Sources */,
 				57CC1A7B1A5CA9A600673316 /* AppDelegate.m in Sources */,
+				57CC1AA31A5CAFD200673316 /* ResultsViewController.m in Sources */,
+				57CC1A9D1A5CAE1300673316 /* EnterNameViewController.m in Sources */,
 				57CC1A781A5CA9A600673316 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +430,7 @@
 				57CC1A971A5CA9A600673316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57CC1A981A5CA9A600673316 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				57CC1A9A1A5CA9A600673316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
